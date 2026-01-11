@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrii Travkin | Java Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./images/img.png" type="image/png">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Andrii Travkin</div>
+    <div class="nav-links">
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('about')">About me</button>
+    </div>
+</nav>
+
+<section id="home" class="active">
+    <div class="hero">
+        <img src="./images/photo.JPG" alt="Andrii Travkin" class="hero-img">
+        <div class="hero-content">
+            <span class="badge">Available for Projects</span>
+            <h1>Andrii Travkin</h1>
+            <h2>Java Software Engineer</h2>
+            <p>Experienced Backend Developer with 3+ years of expertise building scalable systems using Java, Spring Boot, REST/gRPC.</p>
+            <div class="skill-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Microservices</span>
+                <span class="tag">Cloud (GCP/AWS)</span>
+                <span class="tag">DB (SQL: PostgreSql, Mysql/Redis)</span>
+                <span class="tag">REST/WebSocket/gRpc</span>
+            </div>
+            <button class="cta-button" onclick="showSection('about')">More About Me</button>
+        </div>
+    </div>
+
+    <div class="business-section">
+        <h2 class="section-title">How I Help Businesses Grow</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-number">01</div>
+                <h3>Rapid Market Entry</h3>
+                <p>I bridge the gap between business vision and digital reality. Whether you are transitioning services online or launching a new venture, I ensure a fast, goal-oriented rollout with an architecture built to handle high-load traffic.</p>
+                <p class="result"><strong>Result:</strong> Shorter time-to-market and a solid technical foundation from day one.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-number">02</div>
+                <h3>Lean Scaling & Performance Optimization</h3>
+                <p>I help you scale without the "heavy lifting" costs. I specialize in identifying bottlenecks and refactoring legacy monoliths into agile microservices, allowing your business to handle increased loads with zero downtime.</p>
+                <p class="result"><strong>Result:</strong> A 40% performance boost and significantly lower infrastructure overhead.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-number">03</div>
+                <h3>Future-Proofing with Intelligent AI</h3>
+                <p>I turn "AI hype" into actual business value. By integrating Large Language Models (LLMs) and semantic search into your core products, I help you automate complex workflows and provide a personalized customer experience.</p>
+                <p class="result"><strong>Result:</strong> Real-time AI delivery and semantic search capabilities that competitors can’t match.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="metrics-section">
+        <h2 class="section-title">Success Metrics</h2>
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-value">$100K+</div>
+                <p class="metric-label">Investment Secured</p>
+                <p class="metric-desc">Engineered an AI-driven ecosystem that became the core value proposition for a successful $100k seed funding round for company.</p>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-value">40%</div>
+                <p class="metric-label">Performance Boost</p>
+                <p class="metric-desc">Achieved by migrating 6+ services to microservices architecture and optimizing data filtering.</p>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-value">30%</div>
+                <p class="metric-label">Latency Reduction</p>
+                <p class="metric-desc">Improved database response time through SQL query optimization and indexing strategies.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">Engineering Philosophy</h2>
+    <div class="slider-container">
+        <div class="slider-track">
+            <div class="slide">
+                <img src="./images/presentation_phot.jpeg" alt="AI Focus" class="slide-img">
+                <div class="quote-overlay">
+                    <blockquote>"LLM (AI) is a brilliant tool that saves a business thousands of dollars a day if integrated wisely."</blockquote>
+                    <cite>— Andrii Travkin</cite>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./images/presentation_2.jpeg" alt="SOLID Focus" class="slide-img">
+                <div class="quote-overlay">
+                    <blockquote>"SOLID and its first two letters aren't just boring acronyms for interviews; they are a worldview for building resilient systems."</blockquote>
+                    <cite>— Andrii Travkin</cite>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./images/presentation_phot.jpeg" alt="Learning" class="slide-img">
+                <div class="quote-overlay">
+                    <blockquote>
+                        "Tech stacks change every six months. My core skill? Rapid learning and the agility to apply engineering fundamentals to any new reality."
+                    </blockquote>
+                    <cite>— Andrii Travkin, "Who is the Best Engineer?"</cite>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn prev-btn">❮</button>
+        <button class="slider-btn next-btn">❯</button>
+    </div>
+
+    <div class="speaking-section">
+        <div class="intro-box" style="border-left: 5px solid #ffcc00;">
+            <h3>Engineering Leadership</h3>
+            <p>
+                Beyond coding, I act as an <strong>internal speaker</strong> promoting engineering best practices.
+                I have mentored junior engineers and introduced code review standards that reduced integration issues by 30%.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="who-i-am">
+        <h2 class="section-title">Who I Am</h2>
+        <img src="./images/photo.jpeg" class="profile-img-about" alt="Profile image" />
+        <div class="intro-box">
+            <p>
+                I am a business-oriented engineer who translates complex technical challenges into growth opportunities.
+                With over <strong>3 years of hands-on experience</strong>, I have delivered impactful solutions ranging from
+                independently designing high-load email tracking microservices  to advanced AI integrations.
+            </p>
+            <p>
+                My most notable achievement involved architecting and implementing a <strong>ChatGPT-powered semantic search</strong>
+                for a hotel booking platform. This innovation was a key factor in the company securing
+                <strong>$100,000+ in investment</strong>, enabling continued growth and product development.
+            </p>
+        </div>
+    </div>
+
+    <h2 class="section-title">Career & Speaking Roadmap</h2>
+    <div class="roadmap-container">
+
+        <div class="roadmap-item speaking">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-content">
+                <span class="roadmap-date">December 2025</span>
+                <h3>Guest Speaker | NURE (Kharkiv National University of Radio Electronics) </h3>
+                <p><strong>Topic:</strong> "OWASP Top 10 - Broken Access Control" — A practical deep dive into API vulnerabilities, unauthorized access exploits, and defensive security patterns.</p>
+            </div>
+        </div>
+
+        <div class="roadmap-item speaking">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-content">
+                <span class="roadmap-date">November 2025</span>
+                <h3>Public Speaker | Tech Conference</h3>
+                <p><strong>Topic:</strong> "SOLID: Why our things suffer and our code too?" — A deep dive into architectural debt and clean code principles.</p>
+            </div>
+        </div>
+
+        <div class="roadmap-item job">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-content">
+                <span class="roadmap-date">July 2025 — Present</span>
+                <h3>Java Software Engineer | Grid Dynamics</h3>
+                <p>Leading migration of 6+ core services to microservices and mentoring junior engineers.</p>
+            </div>
+        </div>
+
+        <div class="roadmap-item speaking">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-content">
+                <span class="roadmap-date">July 2025</span>
+                <h3>Guest Speaker | Wroclaw Academy of Business (WAB)</h3>
+                <p><strong>Topic:</strong> "AI in Modern Development" — Discussing the practical integration of LLMs into commercial software products.</p>
+            </div>
+        </div>
+
+        <div class="roadmap-item job">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-content">
+                <span class="roadmap-date">January 2024 — July 2025</span>
+                <h3>Middle Java Developer | WINWIN.TRAVEL</h3>
+                <p>
+                    Architected <strong>AI-powered semantic search</strong> and intelligent guest assistants that were instrumental in securing <strong>$100,000 in investment</strong>.
+                    Optimized core data filtering, achieving a <strong>40% performance boost</strong>.
+                </p>
+            </div>
+        </div>
+
+        <div class="roadmap-item job">
+            <div class="roadmap-dot"></div>
+            <div class="roadmap-content">
+                <span class="roadmap-date">August 2023 — January 2024</span>
+                <h3>Junior Java Developer | PROFITSOFT</h3>
+                <p>Reduced response times by 30% through SQL query optimization and indexing.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-section">
+        <h2 class="section-title">Signature Projects</h2>
+        <div class="project-detailed-grid">
+
+            <div class="project-detail-card">
+                <div class="project-header">
+                    <span class="project-category">AI & Business Growth</span>
+                    <h3>AI-Powered Semantic Search</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>Challenge:</strong> Transitioning a hotel booking platform to modern AI standards to secure investment.</p>
+                    <p><strong>Solution:</strong> Integrated ChatGPT into the core product, designing the complete real-time communication flow between frontend and backend.</p>
+                    <p class="impact-text"><strong>Impact:</strong> Secured <strong>$100,000+ in funding</strong> and achieved a <strong>40% increase</strong> in query processing speed.</p>
+                </div>
+            </div>
+
+            <div class="project-detail-card">
+                <div class="project-header">
+                    <span class="project-category">Architecture & Scaling</span>
+                    <h3>Core Microservices Migration</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>Challenge:</strong> Scaling a monolithic fitness & wellness platform with zero downtime.</p>
+                    <p><strong>Solution:</strong> Led the migration of 6+ core services using Java 21, REST, and Kubernetes, collaborating with 4 cross-functional teams.</p>
+                    <p class="impact-text"><strong>Impact:</strong> <strong>40% performance improvement</strong> and enhanced system resilience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="why-me-section">
+        <h2 class="section-title">Beyond the Code</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Security-First Mindset</h3>
+                <p>Leveraging my background in <strong>Cybersecurity</strong> (NURE) to build systems that are not only fast but inherently secure.</p>
+            </div>
+            <div class="card">
+                <h3>Leadership & Mentorship</h3>
+                <p>I don't just write code; I grow teams. By mentoring juniors and introducing code standards, I reduced integration issues by <strong>30%</strong>.</p>
+            </div>
+            <div class="card">
+                <h3>Global Communicator</h3>
+                <p>Working in distributed teams across different time zones. Fluent in <strong>English, Polish, and Ukrainian</strong>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="contact-footer">
+    <h3>Ready to scale your business?</h3>
+    <p>I’m available for freelance projects and consulting roles.</p>
+    <p><strong>Get in touch:</strong> <a href="mailto:andrewtravkin03@gmail.com">andrewtravkin03@gmail.com</a></p>
+    <p><strong>Network:</strong> <a href="https://www.linkedin.com/in/andrii-travkin-1250852b1" target="_blank" rel="noopener">LinkedIn</a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
